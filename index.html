@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Business Webpage</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Perpetua&family=Didot&display=swap">
+    <style>
+        /* Apply system font for the body (Roboto as a fallback) */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('4th Image.png'); /* Set your image path here */
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keep the background fixed during scrolling */
+    color: #333; /* Text color */
+}
+
+/* Navbar Layout using Flexbox */
+nav {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    justify-content: space-between; /* Space between image and nav items */
+    background-color: #B4045F;
+    padding: 10px 20px;
+}
+
+/* Image style in navbar */
+nav img {
+    width: 50px; /* Adjust the size of the image */
+    height: auto;
+    margin-right: 20px; /* Space between the image and navigation links */
+}
+
+/* Style for navbar links */
+nav a {
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect for navbar links */
+nav a:hover {
+    background-color: #933b7d; /* Darker shade on hover */
+    transform: scale(1.1);
+    border-radius: 4px;
+}
+
+
+/* Header (removed header text from here) */
+header {
+    display: none;
+}
+
+/* Main section */
+main {
+    padding: 20px;
+}
+
+.about-us {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Updated font for h1 */
+.about-us h1 {
+    text-align: center; /* Center the "Altern Blooming Creations" text */
+    font-family: "Copperplate Gothic Light"; 
+    font-size: 42px; 
+    font-variant: small-caps; 
+    font-weight: 700; 
+    line-height: 53.9px;
+    color: #B4045F;
+}
+
+/* Updated font for h3 (previously h2) */
+.about-us h3 {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+/* Updated font for paragraphs */
+.about-us p {
+    font-family: "Lucida Bright", Georgia, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+/* Image styling */
+.about-us img {
+    width: 80%; /* Adjusted to 80% for a smaller image */
+    height: auto;
+    border-radius: 8px;
+    margin: 20px auto; /* Centers the image horizontally */
+    display: block; /* Makes the image a block-level element */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+    <!-- Image on the left side -->
+    <img src="2nd Image.png" alt="Logo" />
+
+    <!-- Navbar links aligned to the right -->
+    <div>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+    </div>
+</nav>
+
+    <main>
+        <section class="about-us">
+            
+            <h1>Altern Blooming Creations - About Us</h1>
+          
+           
+            <h3>Who We Are?</h3>
+            <p>
+                Welcome to Altern Blooming Creations! Our mission is to be a brand of 
+                elegancy, quality, and uniqueness, to maximize the potential beauty of each and 
+                one of our customers. Established in 2024, we want to grow to become a trusted name in the industry. Our team
+                of new and determined entrepreneurs work tirelessly to ensure that we exceed expectations
+                and create lasting partnerships with our clients and customers.
+            </p>
+
+            <p>
+                At Altern Blooming Creations, integrity, innovation, and excellence are at the heart of
+                everything we do. We are passionate about helping you achieve your goals and are
+                always here to provide the best eco-friendly bags we can give.
+            </p>
+            
+            <h3>What We Offer?</h3>
+            <p>
+                Our product is an accessible recycled material multi-bag that can be used for any occasion, 
+                including groceries. We will gather and recycle old fabric or clothes to form a bag for the 
+                materials we will be using. We will also use newspapers for design to keep its unique features.
+            </p>
+            
+            <!-- Insert the image here -->
+            <img src="3rd Image.jpeg" alt="Altern Blooming Creations" />
+
+            <h3>Our Youtube Channel</h3>
+            <video width="800" controls>
+                <source src="1st Video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>
+                Here is an example of an intro video from one of our videos from our youtube channel, to 
+                tease you for more.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Altern Blooming Creations. All rights reserved.</p>
+    </footer>
+</body>
+</html>
