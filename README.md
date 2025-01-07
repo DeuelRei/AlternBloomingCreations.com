@@ -1,1 +1,0 @@
-# AlternBloomingCreations.com
